@@ -1,0 +1,19 @@
+{
+	"name": "my-graphql-project",
+	"version": "1.0.0",
+	"description": "Practice version",
+	"main": "server.js",
+	"scripts": {
+		"run": "nodemon server.js",
+		"server": "nodemon server.js"
+	},
+	"author": "Ubaid Hussian",
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^0.19.2",
+		"express": "^4.17.1",
+		"express-graphql": "^0.9.0",
+		"graphql": "^15.0.0",
+		"nodemon": "^2.0.3"
+	}
+}
